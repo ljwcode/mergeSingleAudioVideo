@@ -57,8 +57,6 @@
         });
     }];
     
-    
-    
     // Do any additional setup after loading the view.
 }
 
@@ -69,7 +67,7 @@
     playerLayer.videoGravity = AVLayerVideoGravityResizeAspect;
     [playerLayer setFrame:CGRectMake(0, 0, kScreenWidth, kScreenWidth)];
     UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenWidth)];
-//    [imageView setImage:[UIImage imageNamed:@"applelogo.png"]];
+    [imageView setImage:[UIImage imageNamed:@"applelogo.png"]];
     [self.view addSubview:imageView];
     [imageView.layer addSublayer:playerLayer];
     [self hideHUD];

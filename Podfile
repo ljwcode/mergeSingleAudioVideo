@@ -5,7 +5,6 @@ target 'mergeSingleAudioVideo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
  pod 'MBProgressHUD+Add'
- pod 'Masonry'
   # Pods for mergeSingleAudioVideo
 
 end
